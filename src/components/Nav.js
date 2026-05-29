@@ -1,6 +1,5 @@
 import '../styling/Nav.css';
 import {Link} from "react-router-dom"
-import { HashLink } from 'react-router-hash-link';
 import miniLogo from '../assets/miniLogo.png';
 
 export default function Nav() {

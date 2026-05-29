@@ -40,16 +40,16 @@ export default function Projects() {
           <div className='pProjects'>
            <p className='pProjects'>This is my choice-based (visual) novel in Twine, called Archetype Personality Test. I created this novel in Twine as part of my minor for my study Creative media and Game technologies.</p>
            <p className='pProjects'>The novel focuses entirely on branching decisions, where every choice matters and leads to different endings. Each ending will assign the player a unique personality type based on the decisions they made throughout the story. </p>
-           <a href='https://lauren12mei.itch.io/archetype-personality-test' className='link' target="_blank" alt='Link to Archetype Personality Test'>Play my game on itch.io!</a>
+           <a href='https://lauren12mei.itch.io/archetype-personality-test' className='link' target="_blank" rel="noreferrer" alt='Link to Archetype Personality Test'>Play my game on itch.io!</a>
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={archetype} className="image" onClick={() => setPopupImg(archetype)} />
+          <img src={archetype} className="image" alt="Archetype Personality Test screenshot" onClick={() => setPopupImg(archetype)} />
           <div className='smallColumnProjects'>
-            <img src={archetype1} onClick={() => setPopupImg(archetype1)} />
-            <img src={archetype2} onClick={() => setPopupImg(archetype2)} />
-            <img src={archetype3} onClick={() => setPopupImg(archetype3)} />
-            <img src={archetype4} onClick={() => setPopupImg(archetype4)} />
+            <img src={archetype1} alt="Archetype screenshot 1" onClick={() => setPopupImg(archetype1)} />
+            <img src={archetype2} alt="Archetype screenshot 2" onClick={() => setPopupImg(archetype2)} />
+            <img src={archetype3} alt="Archetype screenshot 3" onClick={() => setPopupImg(archetype3)} />
+            <img src={archetype4} alt="Archetype screenshot 4" onClick={() => setPopupImg(archetype4)} />
           </div>
         </animated.div>
       </div> 
@@ -58,7 +58,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="" />
         </div>
       )}
     </>
