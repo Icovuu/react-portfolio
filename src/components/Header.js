@@ -14,6 +14,7 @@ export default function Header() {
 
     return (
         <header className="header">
+            <p className='important'>Important! This website is a work in progress and possibly has multiple bugs. For now this website only works on desktop.</p>
                 <div className="headerMiddle"> 
                 <Link to="/Home">
                     <animated.img style={springIn} src={logo} className="logo" alt="logo" />
