@@ -1,0 +1,106 @@
+.mainP {
+  position: relative;
+  min-height: 115vh;
+}
+
+.gradient {
+  z-index: -1;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.mainProjects {
+  margin: 100px 80px 80px 90px;
+}
+
+.h1Projects {
+  font-family: "Itim";
+  font-weight: 60;
+  font-size: 60px;
+  margin-bottom: 100px;
+  width: 40%;
+  border-radius: 10px;
+  height: 10px;
+  box-shadow: 0 65px 0 0 #FF87A5;
+}
+
+.pProjects {
+  font-family: "Itim";
+  font-size: 25px;
+  width: 90%;
+  line-height: 32px;   
+  margin-bottom: 20px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  color: #D25C7A;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.link:hover {
+  color: #92384f;
+}
+
+.columnProjects {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.vrVideo {
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  border: 5px solid #D25C7A; 
+  background-color: #7c3d4d;
+  border-radius: 10px;
+}
+
+.columnProjects img {
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  border: 5px solid #D25C7A; 
+  background-color: #7c3d4d;
+  border-radius: 10px;
+}
+
+.smallColumnProjects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.smallColumnProjects img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+#popup img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+}

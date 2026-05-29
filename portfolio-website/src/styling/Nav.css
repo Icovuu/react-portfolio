@@ -1,0 +1,33 @@
+.navBar {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+
+.navBar ul {
+  font-family: "Itim";
+  font-size: 25px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  background: linear-gradient(#D25C7A, #FFD4DF);
+}
+
+.navBar ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.navBar ul li a:hover {
+  color: #111111;
+}
+
+.liText {
+  padding: 18px 25px;
+}
+
+.miniLogoNav {
+  margin-right: 25px;
+}

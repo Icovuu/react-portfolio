@@ -1,0 +1,99 @@
+.header {
+  position: relative;
+  background-color: #C8E1FE;
+  min-height: 60vh;
+}
+
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5 {
+  position: absolute;
+  animation: moveClouds 30s linear infinite;
+}
+
+@keyframes moveClouds {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}
+
+  .cloud1 {
+    height: auto;
+    width: 150px;
+    top: 10%;
+    left: 80%;
+  }
+
+  .cloud2 {
+    height: 70px;
+    width: 120px;
+    top: 40%;
+    left: 70%;
+  }
+
+  .cloud3 {
+    height: aut;
+    width: 180px;
+    top: 60%;
+    left: 20%;
+  }
+
+  .cloud4 {
+    height: 90px;
+    width: 140px;
+    top: 20%;
+    left: 55%;
+  }
+
+  .cloud5 {
+    height: 50px;
+    width: 100px;
+    top: 75%;
+    left: 90%;
+  }
+
+.cherry {
+  height: 400px;
+}
+
+.headerMiddle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 250px;
+}
+
+.header ul {
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  height: 13%;
+  font-family: "Itim";
+  font-size: 30px;
+  bottom: -100px;
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  background: #D25C7A;
+  background: linear-gradient(180deg, rgba(210, 92, 122, 1) 0%, rgba(222, 118, 144, 1) 30%, rgba(255, 212, 223, 1) 100%);  
+  justify-content: center; 
+  align-items: center;
+}
+
+.header ul li a {
+  color: white;
+  margin-top: 2px;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  color: #111111;
+}
