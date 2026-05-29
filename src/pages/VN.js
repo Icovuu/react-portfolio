@@ -41,16 +41,16 @@ export default function Projects() {
            <p className='pProjects'>A visual novel I created using Ren'Py Called Whispering Hearts.</p>
             <p className='pProjects'>Whispering Hearts is a visual novel I created about friendship, jealousy, and self-discovery. It tells the story of Fuyuko, a shy high schooler, and her outgoing best friend, Yukie.</p>
             <p className='pProjects'>This visual novel has been written and programmed by me, where as the art for the characters and background has been created by someone else. You can find the credits for that on my itch.io page linked below.</p>
-            <a href='https://lauren12mei.itch.io/whispering-hearts' className='link' target="_blank" alt='Link to Whispering Hearts'>Play my game on itch.io!</a>
+            <a href='https://lauren12mei.itch.io/whispering-hearts' className='link' target="_blank" rel="noreferrer" alt='Link to Whispering Hearts'>Play my game on itch.io!</a>
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={vn} className="image" onClick={() => setPopupImg(vn)} />
+          <img src={vn} className="image" alt="Whispering Hearts visual novel screenshot" onClick={() => setPopupImg(vn)} />
           <div className='smallColumnProjects'>
-            <img src={whispering1} onClick={() => setPopupImg(whispering1)} />
-            <img src={whispering2} onClick={() => setPopupImg(whispering2)} />
-            <img src={whispering3} onClick={() => setPopupImg(whispering3)} />
-            <img src={whispering4} onClick={() => setPopupImg(whispering4)} />
+            <img src={whispering1} alt="Whispering Hearts screenshot 1" onClick={() => setPopupImg(whispering1)} />
+            <img src={whispering2} alt="Whispering Hearts screenshot 2" onClick={() => setPopupImg(whispering2)} />
+            <img src={whispering3} alt="Whispering Hearts screenshot 3" onClick={() => setPopupImg(whispering3)} />
+            <img src={whispering4} alt="Whispering Hearts screenshot 4" onClick={() => setPopupImg(whispering4)} />
           </div>
         </animated.div>
       </div> 
@@ -59,7 +59,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="" />
         </div>
       )}
     </>

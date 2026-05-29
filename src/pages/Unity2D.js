@@ -42,11 +42,11 @@ export default function Projects() {
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={find} className="image" onClick={() => setPopupImg(find)} />
+          <img src={find} className="image" alt="Find Your Way Out game screenshot" onClick={() => setPopupImg(find)} />
           <div className='smallColumnProjects'>
-            <img src={find1} onClick={() => setPopupImg(find1)} />
-            <img src={find2} onClick={() => setPopupImg(find2)} />
-            <img src={find3} onClick={() => setPopupImg(find3)} />
+            <img src={find1} alt="Find Your Way Out screenshot 1" onClick={() => setPopupImg(find1)} />
+            <img src={find2} alt="Find Your Way Out screenshot 2" onClick={() => setPopupImg(find2)} />
+            <img src={find3} alt="Find Your Way Out screenshot 3" onClick={() => setPopupImg(find3)} />
           </div>
         </animated.div>
       </div> 
@@ -55,7 +55,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="" />
         </div>
       )}
     </>

@@ -42,12 +42,12 @@ export default function Projects() {
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={konijnenOpvang} className="image" onClick={() => setPopupImg(konijnenOpvang)} />
+          <img src={konijnenOpvang} className="image" alt="Bunny shelter website homepage" onClick={() => setPopupImg(konijnenOpvang)} />
           <div className='smallColumnProjects'>
-            <img src={contact} onClick={() => setPopupImg(contact)} />
-            <img src={reserveren} onClick={() => setPopupImg(reserveren)} />
-            <img src={slideShow} onClick={() => setPopupImg(slideShow)} />
-            <img src={solliciteren} onClick={() => setPopupImg(solliciteren)} />
+            <img src={contact} alt="Contact page" onClick={() => setPopupImg(contact)} />
+            <img src={reserveren} alt="Reserveren page" onClick={() => setPopupImg(reserveren)} />
+            <img src={slideShow} alt="Slideshow page" onClick={() => setPopupImg(slideShow)} />
+            <img src={solliciteren} alt="Solliciteren page" onClick={() => setPopupImg(solliciteren)} />
           </div>
         </animated.div>
       </div> 
@@ -56,7 +56,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="Enlarged view" />
         </div>
       )}
     </>

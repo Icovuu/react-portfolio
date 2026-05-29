@@ -6,7 +6,7 @@ import gradient from '../assets/gradient.png';
 export default function Footer() {
     return (
         <footer id="contact">
-        <img src={gradient} className="gradient" />
+        <img src={gradient} className="gradient" alt="" />
         <div className='footerText'>
             <Link to="/Home">
                 <img src={miniLogo} alt="mini logo" className='miniLogoFooter'/>

@@ -40,16 +40,16 @@ export default function Projects() {
           <div className='pProjects'>
            <p className='pProjects'>De stroper is a pancake restaurant located in De Lutte, where I work in the kitchen. I took over the existing website, where I continue to make changes to when necessary. This website is created on Webflow.</p>
             <p className='pProjects'>I worked on small parts of the website, such as the footer, slider and popups. I've also been working the the UI & design of the website. You can see these on the images on the right.</p>
-            <a href='https://www.pannenkoekhoes.nl/' className='link' target="_blank" alt='Link to De Stroper website'>Link to De Stroper website</a>
+            <a href='https://www.pannenkoekhoes.nl/' className='link' target="_blank" rel="noreferrer" alt='Link to De Stroper website'>Link to De Stroper website</a>
           </div> 
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={stroper} className="image" onClick={() => setPopupImg(stroper)} />
+          <img src={stroper} className="image" alt="De Stroper website screenshot" onClick={() => setPopupImg(stroper)} />
           <div className='smallColumnProjects'>
-            <img src={contact} onClick={() => setPopupImg(contact)} />
-            <img src={reserveren} onClick={() => setPopupImg(reserveren)} />
-            <img src={slideShow} onClick={() => setPopupImg(slideShow)} />
-            <img src={solliciteren} onClick={() => setPopupImg(solliciteren)} />
+            <img src={contact} alt="Contact page screenshot" onClick={() => setPopupImg(contact)} />
+            <img src={reserveren} alt="Reservations page screenshot" onClick={() => setPopupImg(reserveren)} />
+            <img src={slideShow} alt="Slideshow screenshot" onClick={() => setPopupImg(slideShow)} />
+            <img src={solliciteren} alt="Job application page screenshot" onClick={() => setPopupImg(solliciteren)} />
           </div>
         </animated.div>
       </div> 
@@ -58,7 +58,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="" />
         </div>
       )}
     </>

@@ -39,16 +39,16 @@ export default function Projects() {
         <div className='columnProjects'>
           <div className='pProjects'>
            <p className='pProjects'>This is my old portfolio that I created on a free version of Wordpress.</p>
-            <a href='https://laurenoldemonnikhof.wordpress.com/' className='link' target="_blank" alt='Link to Wordpress portfolio'>Link to Wordpress portfolio</a>
+            <a href='https://laurenoldemonnikhof.wordpress.com/' className='link' target="_blank" rel="noreferrer" alt='Link to Wordpress portfolio'>Link to Wordpress portfolio</a>
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={portfolio} className="image" onClick={() => setPopupImg(portfolio)} />
+          <img src={portfolio} className="image" alt="Wordpress portfolio screenshot" onClick={() => setPopupImg(portfolio)} />
           <div className='smallColumnProjects'>
-            <img src={gameAboutMe} onClick={() => setPopupImg(gameAboutMe)} />
-            <img src={gameProjects} onClick={() => setPopupImg(gameProjects)} />
-            <img src={gameLowPoly} onClick={() => setPopupImg(gameLowPoly)} />
-            <img src={gameHellhound} onClick={() => setPopupImg(gameHellhound)} />
+            <img src={gameAboutMe} alt="About me page screenshot" onClick={() => setPopupImg(gameAboutMe)} />
+            <img src={gameProjects} alt="Projects page screenshot" onClick={() => setPopupImg(gameProjects)} />
+            <img src={gameLowPoly} alt="Low poly artwork screenshot" onClick={() => setPopupImg(gameLowPoly)} />
+            <img src={gameHellhound} alt="Hellhound artwork screenshot" onClick={() => setPopupImg(gameHellhound)} />
           </div>
         </animated.div>
       </div> 
@@ -57,7 +57,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="" />
         </div>
       )}
     </>
