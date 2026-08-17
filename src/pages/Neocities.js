@@ -41,18 +41,18 @@ export default function Projects() {
            <p className='pProjects'>I created this website on Neocities, a free web hosting service, to reflect my style and personality. It showcase my interests and hobbies. It features five pages: a homepage, an 'About Me' section, a showcase of my original characters, a collection of games I'm playing, and a small dress up game.</p>
            <p className='pProjects'>The fifth and last page is a chibi pixel art dress-up game I created using Aseprite and Neocities. In this small game you can dress up a small chibi character and save it on your device.</p>
           <div class="link-container">
-          <a href='https://icodreams.neocities.org/' className='link' target="_blank" alt='Link to my neocities website'>Link to my neocities website</a>
-          <a href='https://icodreams.neocities.org/dressup' className='link' target="_blank" alt='Link to my dress-up game inside my neocities website'>Link to my dress-up game inside my neocities website</a>
+          <a href='https://icodreams.neocities.org/' className='link' target="_blank" rel="noreferrer" alt='Link to my neocities website'>Link to my neocities website</a>
+          <a href='https://icodreams.neocities.org/dressup' className='link' target="_blank" rel="noreferrer" alt='Link to my dress-up game inside my neocities website'>Link to my dress-up game inside my neocities website</a>
           </div>
           </div>
         </div>
           <animated.div style={springIn} className='columnProjects'>
-          <img src={neocities} className="image" onClick={() => setPopupImg(neocities)} />
+          <img src={neocities} className="image" alt="Neocities website screenshot" onClick={() => setPopupImg(neocities)} />
           <div className='smallColumnProjects'>
-            <img src={IcoDreams} onClick={() => setPopupImg(IcoDreams)} />
-            <img src={originalCharacters} onClick={() => setPopupImg(originalCharacters)} />
-            <img src={games} onClick={() => setPopupImg(games)} />
-            <img src={dressUp} onClick={() => setPopupImg(dressUp)} />
+            <img src={IcoDreams} alt="IcoDreams screenshot" onClick={() => setPopupImg(IcoDreams)} />
+            <img src={originalCharacters} alt="Original characters page screenshot" onClick={() => setPopupImg(originalCharacters)} />
+            <img src={games} alt="Games page screenshot" onClick={() => setPopupImg(games)} />
+            <img src={dressUp} alt="Dress-up game screenshot" onClick={() => setPopupImg(dressUp)} />
           </div>
         </animated.div>
       </div> 
@@ -61,7 +61,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="" />
         </div>
       )}
     </>

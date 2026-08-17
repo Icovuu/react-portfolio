@@ -51,7 +51,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="Enlarged view" />
         </div>
       )}
     </>

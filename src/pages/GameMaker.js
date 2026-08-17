@@ -41,10 +41,10 @@ export default function Projects() {
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={plastic} className="image" onClick={() => setPopupImg(plastic)} />
+          <img src={plastic} className="image" alt="Plastic Pollution game screenshot" onClick={() => setPopupImg(plastic)} />
           <div className='smallColumnProjects'>
-            <img src={plastic1} onClick={() => setPopupImg(plastic1)} />
-            <img src={plastic2} onClick={() => setPopupImg(plastic2)} />
+            <img src={plastic1} alt="Plastic Pollution game screenshot 1" onClick={() => setPopupImg(plastic1)} />
+            <img src={plastic2} alt="Plastic Pollution game screenshot 2" onClick={() => setPopupImg(plastic2)} />
           </div>
         </animated.div>
       </div> 
@@ -53,7 +53,7 @@ export default function Projects() {
 
       {popupImg && (
         <div id="popup" onClick={() => setPopupImg(null)}>
-          <img src={popupImg} />
+          <img src={popupImg} alt="Enlarged view" />
         </div>
       )}
     </>
