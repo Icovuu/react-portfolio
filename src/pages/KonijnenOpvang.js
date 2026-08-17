@@ -1,10 +1,7 @@
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import konijnenOpvang from '../assets/KonijnenOpvangWebsite.png';
-import contact from '../assets/contact.png';
-import reserveren from '../assets/reserveren.png';
-import slideShow from '../assets/slideShow.png';
-import solliciteren from '../assets/solliciteren.png';
+import permanenteBewoners from '../assets/permanenteBewoners.png';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from '@react-spring/web'
 
@@ -38,16 +35,14 @@ export default function Projects() {
         <h1 className='h1Projects'>Bunny shelter website</h1>
         <div className='columnProjects'>
           <div className='pProjects'>
-           <pProjects>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</pProjects>
+           <p className='pProjects'>This is a rabbit shelter in De Lutte. I contributed to the design and to one of the pages, called Permanent Residents, which you see on the right. The page is still under development.</p>
+            <a href='https://www.konijnenopvangmaaike.nl//' className='link' target="_blank" alt='Link to Konijnenopvang Maaike website'>Link to Konijnenopvang Maaike website</a>
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={konijnenOpvang} className="image" onClick={() => setPopupImg(konijnenOpvang)} />
+          <img src={permanenteBewoners} className="image" onClick={() => setPopupImg(permanenteBewoners)} />
           <div className='smallColumnProjects'>
-            <img src={contact} onClick={() => setPopupImg(contact)} />
-            <img src={reserveren} onClick={() => setPopupImg(reserveren)} />
-            <img src={slideShow} onClick={() => setPopupImg(slideShow)} />
-            <img src={solliciteren} onClick={() => setPopupImg(solliciteren)} />
+            <img src={konijnenOpvang} onClick={() => setPopupImg(konijnenOpvang)} />
           </div>
         </animated.div>
       </div> 
