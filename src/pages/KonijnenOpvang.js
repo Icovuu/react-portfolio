@@ -35,14 +35,14 @@ export default function Projects() {
         <h1 className='h1Projects'>Bunny shelter website</h1>
         <div className='columnProjects'>
           <div className='pProjects'>
-           <p className='pProjects'>This is a rabbit shelter in De Lutte. I contributed to the design and to one of the pages, called Permanent Residents, which you see on the right. The page is still under development.</p>
-            <a href='https://www.konijnenopvangmaaike.nl//' className='link' target="_blank" alt='Link to Konijnenopvang Maaike website'>Link to Konijnenopvang Maaike website</a>
+           <p className='pProjects'>This is a bunny shelter in De Lutte. I contributed to the design and to one of the pages, called Permanent Residents, which you see on the right. The page is still under development.</p>
+            <a href='https://www.konijnenopvangmaaike.nl//' className='link' target="_blank" rel="noreferrer" alt='Link to Konijnenopvang Maaike website'>Link to Konijnenopvang Maaike website</a>
           </div>
         </div>
         <animated.div style={springIn} className='columnProjects'>
-          <img src={permanenteBewoners} className="image" onClick={() => setPopupImg(permanenteBewoners)} />
+          <img src={permanenteBewoners} className="image" alt="Bunny shelter Permanent Residents page" onClick={() => setPopupImg(permanenteBewoners)} />
           <div className='smallColumnProjects'>
-            <img src={konijnenOpvang} onClick={() => setPopupImg(konijnenOpvang)} />
+            <img src={konijnenOpvang} alt="Bunny shelter home page" onClick={() => setPopupImg(konijnenOpvang)} />
           </div>
         </animated.div>
       </div> 
