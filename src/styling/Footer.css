@@ -11,6 +11,21 @@ footer {
   gap: 5%;
 }
 
+@media (max-width: 1170px) {
+  .footerText {
+  gap: 2% !important;
+}
+}
+
+@media (max-width: 860px) {
+  .footerText {
+  display: grid !important;
+}
+  .pFooter {
+  padding: 15px 0px 0px 0px;
+}
+}
+
 .miniLogoFooter {
   margin-bottom: 10px;
 }
