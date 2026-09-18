@@ -8,9 +8,9 @@ export default function Nav() {
                 <ul>
                     <li><Link to="/Home"> <img src={miniLogo} alt="mini logo" className='miniLogoNav'/> </Link></li>
                     <li className='liText'><Link smooth to='/Home'>Home</Link></li>
-                        {/* <li className='liText'><Link smooth to='/Home#about'>About Me</Link></li>
+                        <li className='liText'><Link smooth to='/Home#about'>About Me</Link></li>
                         <li className='liText'><Link smooth to='/Home#websites'>Websites</Link></li>
-                        <li className='liText'><Link smooth to='/Home#games'>Games</Link></li> */}
+                        <li className='liText'><Link smooth to='/Home#games'>Games</Link></li> 
                     <li className='liText'><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
