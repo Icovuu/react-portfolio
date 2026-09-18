@@ -25,12 +25,6 @@ export default function Header() {
                 <img src={cloud} className='cloud3' alt='cloud'/>
                 <img src={cloud} className='cloud4' alt='cloud'/>
                 <img src={cloud} className='cloud5' alt='cloud'/>
-                <ul>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#websites">Websites</a></li>
-                    <li><a href="#games">Games</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
               </header>
     )
 }

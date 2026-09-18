@@ -1,0 +1,47 @@
+@media (max-width: 810px) {
+  .header ul li a {
+  padding: 14px 20px !important;
+}
+}
+
+@media (max-width: 610px) {
+  .header ul {
+    display: grid !important;
+    height: 40% !important;
+    bottom: -200px !important;
+  }
+
+  .header ul li {
+    margin: 5px 5px;
+}
+}
+
+.mainNav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  height: 70px;
+  font-family: "Itim";
+  font-size: 30px;
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  background: #D25C7A;
+  background: linear-gradient(180deg, rgba(210, 92, 122, 1) 0%, rgba(222, 118, 144, 1) 30%, rgba(255, 212, 223, 1) 100%);  
+  justify-content: center; 
+  align-items: center;
+}
+
+.mainNav ul li a {
+  color: white;
+  margin-top: 2px;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+  color: #111111;
+}

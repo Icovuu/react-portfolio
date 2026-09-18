@@ -1,6 +1,7 @@
 import '../styling/Home.css';
 import '../styling/Projects.css';
 import Header from '../components/Header';
+import MainNav from '../components/MainNav';
 import Footer from '../components/Footer';
 import stroper from '../assets/DeStroperWebsite.png';
 import neocities from '../assets/NeocitiesWebsite.png';
@@ -31,6 +32,7 @@ export default function Home() {
     return (
         <>
         <Header />
+        <MainNav />
            <main>
           <div className='section'>
           <div className='firstSection'>
