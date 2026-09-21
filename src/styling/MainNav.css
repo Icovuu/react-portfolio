@@ -1,17 +1,16 @@
 @media (max-width: 810px) {
-  .header ul li a {
+  .mainNav ul li a {
   padding: 14px 20px !important;
 }
 }
 
 @media (max-width: 610px) {
-  .header ul {
+  .mainNav ul {
     display: grid !important;
-    height: 40% !important;
-    bottom: -200px !important;
+    height: 25% !important;
   }
 
-  .header ul li {
+  .mainNav ul li {
     margin: 5px 5px;
 }
 }
