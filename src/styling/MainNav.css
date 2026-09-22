@@ -7,7 +7,7 @@
 @media (max-width: 610px) {
   .mainNav ul {
     display: grid !important;
-    height: 220px !important;
+    height: 225px !important;
   }
 
   .mainNav ul li {
