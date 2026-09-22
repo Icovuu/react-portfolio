@@ -12,25 +12,47 @@
   
 }
 
+@media (max-width: 1080px) {
+  .columnProjects {
+  width: 100% !important;
+  }
+
+  .pProjects {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .pProjects {
+    font-size: 20px !important;
+  }
+
+.h1Projects {
+    font-size: 35px !important;
+  }
+}
+
+@media (max-width: 380px) {
+.h1Projects {
+    font-size: 30px !important;
+  }
+}
+
 .mainProjects {
-  margin: 100px 80px 80px 90px;
+  margin: 100px 5% auto 5%;
 }
 
 .h1Projects {
   font-family: "Itim";
   font-weight: 60;
   font-size: 60px;
-  margin-bottom: 100px;
-  width: 40%;
-  border-radius: 10px;
-  height: 10px;
-  box-shadow: 0 65px 0 0 #FF87A5;
+  margin-bottom: 25px;
 }
 
 .pProjects {
   font-family: "Itim";
   font-size: 25px;
-  width: 90%;
+  width: 95%;
   line-height: 32px;   
   margin-bottom: 20px;
 }
