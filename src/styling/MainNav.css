@@ -13,11 +13,11 @@
   box-sizing: border-box;
 
   background: linear-gradient(
-    180deg,
-    rgba(210, 92, 122, 1) 0%,
-    rgba(222, 118, 144, 1) 30%,
-    rgba(255, 212, 223, 1) 100%
-  );
+      180deg,
+      rgb(234, 116, 145) 0%,
+      rgb(242, 132, 160) 30%,
+      rgb(255, 168, 190) 100%
+    );
 
   font-family: "Itim";
   font-size: 30px;
@@ -98,8 +98,8 @@
 
     background: linear-gradient(
       180deg,
-      rgba(210, 92, 122, 1) 0%,
-      rgba(222, 118, 144, 1) 30%,
+      rgb(234, 116, 145) 0%,
+      rgb(242, 132, 160) 30%,
       rgb(255, 168, 190) 100%
     );
   }
