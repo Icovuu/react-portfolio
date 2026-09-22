@@ -14,7 +14,6 @@ body {
   width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    background: #FFD4DF;
     background: linear-gradient(0deg, rgba(255, 212, 223, 1) 0%, rgba(255, 235, 240, 1) 50%, rgba(255, 245, 245, 1) 100%);
 }
 
@@ -24,7 +23,7 @@ p {
 
 main {
   min-height: 100vh;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 main .image {
@@ -48,8 +47,11 @@ main .image {
 }
 
 @media (max-width: 610px) {
+  main {
+  padding-top: 15px !important;
+}
+
   .section {
-    margin: 240px auto 0 auto !important;
     gap: 20px !important;
   }
 
@@ -68,7 +70,7 @@ main .image {
   flex-wrap: wrap; 
   width: 80%;
   gap: 40px; 
-  margin: 100px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .firstSection {
