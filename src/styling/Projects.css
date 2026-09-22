@@ -1,7 +1,4 @@
-.mainP {
-  position: relative;
-  min-height: 115vh;
-}
+.mainP { position: relative; width: 100%; min-height: 100vh; overflow: hidden; }
 
 .gradient {
   z-index: -1;
@@ -39,7 +36,7 @@
 }
 
 .mainProjects {
-  margin: 100px 5% auto 5%;
+  margin: auto 5% auto 5%;
 }
 
 .h1Projects {

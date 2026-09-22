@@ -1,7 +1,4 @@
 .navBar {
-  position: fixed;
-  z-index: 2;
-  top: 0;
   width: 100%;
 }
 
@@ -32,3 +29,4 @@
   margin-right: 25px;
 }
 
+@media (max-width: 480px) { .navBar ul { flex-direction: column; width: 100%; } .navBar ul li { width: 100%; } .navBar ul li a { width: 100%; box-sizing: border-box; text-align: center; } .liText { padding: 18px 0; } .miniLogoNav { margin-right: 0; } }
