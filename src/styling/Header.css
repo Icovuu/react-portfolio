@@ -84,10 +84,6 @@
     min-height: 30vh !important;
   }
 
-  .cherry {
-    transform: translateX(-370px);
-  }
-
   .cloud1, .cloud2, .cloud3, .cloud4, .cloud5 {
   display: none;
 }
@@ -101,6 +97,17 @@
   .header ul li {
     margin: 5px 5px;
 }
+}
+
+@media (max-width: 470px) {
+  .logo {
+    height: 120px !important;
+    margin-top: 130px;
+  }
+
+  .cherry {
+    transform: translateX(-425px);
+  }
 }
 
 .headerMiddle {
