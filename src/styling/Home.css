@@ -30,8 +30,16 @@ main .image {
 
 @media (max-width: 610px) {
   .section {
-  margin: 250px auto 0 auto !important;
-}
+  margin: 240px auto 0 auto !important;
+  }
+
+  .h1Section, .h1Home {
+    font-size: 50px !important;
+  }
+
+  .pSection {
+    font-size: 25px !important;
+  }
 }
 
 .section {
@@ -68,12 +76,7 @@ main .image {
   font-weight: 60;
   font-size: 60px;
   text-align: center;
-  margin: auto auto 100px auto;
-  width: 40%;
-  border-radius: 10px;
-  height: 10px;
-  box-shadow: 0 65px 0 0 #FF87A5;
-  white-space: nowrap;
+  margin: auto auto 25px auto;
 }
 
 .pSection {
@@ -90,11 +93,7 @@ main .image {
   font-weight: 60;
   font-size: 60px;
   text-align: center;
-  margin: 90px auto 110px auto;
-  width: 20%;
-  border-radius: 10px;
-  height: 10px;
-  box-shadow: 0 65px 0 0 #FF87A5;
+  margin: 90px auto 35px auto;
 }
 
 .pHome {
