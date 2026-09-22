@@ -1,12 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
+  width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 body {
+  width: 100%;
     max-width: 100%;
     overflow-x: hidden;
     background: #FFD4DF;
