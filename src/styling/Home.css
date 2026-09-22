@@ -22,15 +22,26 @@ main .image {
   width: 100%;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 1265px) {
+  .section {
+    width: 90% !important;
+    gap: 20px !important;
+  }
+
+  .firstSection {
+    width: 100% !important;
+  }
+
   .secondSection {
-  display: none;
-}
+    margin: auto;
+    width: 30% !important;
+  }
 }
 
 @media (max-width: 610px) {
   .section {
-  margin: 240px auto 0 auto !important;
+    margin: 240px auto 0 auto !important;
+    gap: 20px !important;
   }
 
   .h1Section, .h1Home {
