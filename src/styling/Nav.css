@@ -29,4 +29,35 @@
   margin-right: 25px;
 }
 
-@media (max-width: 480px) { .navBar ul { flex-direction: column; width: 100%; } .navBar ul li { width: 100%; } .navBar ul li a { width: 100%; box-sizing: border-box; text-align: center; } .liText { padding: 18px 0; } .miniLogoNav { margin-right: 0; } }
+@media (max-width: 480px) { 
+  .navBar ul { 
+    flex-direction: column; 
+    width: 100%; 
+    padding: 0;
+  } 
+  
+  .navBar ul li { 
+    width: 100%; 
+    outline: 1px solid white;
+    background: linear-gradient(
+      180deg,
+      rgba(210, 92, 122, 1) 0%,
+      rgba(222, 118, 144, 1) 30%,
+      rgb(255, 168, 190) 100%
+    );
+  } 
+  
+  .navBar ul li a { 
+    width: 100%; 
+    box-sizing: border-box; 
+    text-align: center; 
+  } 
+  
+  .liText {
+  padding: 12px 20px !important;
+}
+  
+  .miniLogoNav { 
+    margin-right: 0; 
+  } 
+}

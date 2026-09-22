@@ -63,6 +63,7 @@
   .mainNav {
     width: 100%;
     height: auto;
+    
   }
 
   .mainNav ul {
@@ -74,14 +75,17 @@
 
     justify-content: initial;
     align-items: initial;
+    
   }
 
   .mainNav ul li {
     width: 100%;
+    outline: solid white;
   }
 
   .mainNav ul li a {
     display: block;
+    
 
     width: 100%;
 
